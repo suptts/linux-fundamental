@@ -18,6 +18,13 @@ Steps:
    sudo useradd -s /bin/bash -d /home/suparuek/ -m -G sudo suparuek
    sudo passwd suparuek
 ```
+Where,
+
+-s /bin/bash – Set /bin/bash as login shell of the new account
+-d /home/vivek/ – Set /home/vivek/ as home directory of the new Ubuntu account
+-m – Create the user’s home directory
+-G sudo – Make sure vivek user can sudo i.e. give admin access to the new account
+
 
 3. How to delete a user account
 ```
