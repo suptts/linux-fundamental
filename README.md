@@ -25,16 +25,21 @@ Steps:
 - `-m` – Create the user’s home directory
 - `-G sudo `– Make sure suparuek account can sudo i.e. give admin access to the new account
 
+3. How to veryfi that user account added to the system
+```
+   cat /etc/passwd
+   grep '^suparuek' /etc/passwd
+```
 
-3. How to delete a user account
+4. How to delete a user account
 ```
    sudo userdel suparuek
 ```
-4. How to change Linux user password
+5. How to change Linux user password
 ```
    sudo passwd suparuek
 ```
-To change your own account password, run:
+6. To change your own account password, run:
 ```
    passwd
 ```
